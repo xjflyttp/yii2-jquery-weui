@@ -1,0 +1,23 @@
+{
+    "name": "xj/yii2-jquery-weui-widget",
+    "description": "yii2-jquery-weui-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "xjflyttp",
+            "email": "xjflyttp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/jquery-weui": "~0.8",
+        "xj/yii2-weui-widget": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "xj\\jqweui\\": ""
+        }
+    }
+}
