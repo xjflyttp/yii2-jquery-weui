@@ -7,15 +7,13 @@ use yii\web\AssetBundle;
 /**
  * @author xjflyttp <xjflyttp@gmail.com>
  */
-class WeuiAsset extends AssetBundle
+class CityPickerAsset extends AssetBundle
 {
 
     public $sourcePath = '@npm/jquery-weui/dist';
     public $basePath = '@webroot/assets';
-    public $css = ['css/jquery-weui.min.css'];
-    public $js = ['js/jquery-weui.min.js'];
+    public $js = ['js/city-picker.min.js'];
     public $depends = [
-        'yii\web\JqueryAsset',
-        'xj\weui\WeuiAsset',
+        'xj\jqweui\WeuiAsset',
     ];
 }

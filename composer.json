@@ -13,7 +13,7 @@
     "require": {
         "yiisoft/yii2": "~2.0.0",
         "npm-asset/jquery-weui": "~0.8",
-        "xj/yii2-weui-widget": "dev-master"
+        "xj/yii2-weui-widget": "~1.0.0"
     },
     "autoload": {
         "psr-4": {
