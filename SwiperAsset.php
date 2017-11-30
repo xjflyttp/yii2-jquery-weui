@@ -11,7 +11,6 @@ class SwiperAsset extends AssetBundle
 {
 
     public $sourcePath = '@npm/jquery-weui/dist';
-    public $basePath = '@webroot/assets';
     public $js = ['js/swiper.min.js'];
     public $depends = [
         'xj\jqweui\WeuiAsset',
